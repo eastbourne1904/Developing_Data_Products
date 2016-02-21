@@ -44,8 +44,8 @@ shinyUI(
       verbatimTextOutput("medicine"),
       textOutput("age"),
       textOutput("weight"),
-      
-      
+
+
       br(),
       br(),
       h1('Dog Food Calculator'),
@@ -68,7 +68,7 @@ shinyUI(
         ),
         column(3,numericInput('kcal', 'kcal/cup', 0, min = 0, max = 1300, step = 1))
       ),  # end of fluidRow
-      
+
       submitButton('Calculate Calories'),
       h3('Calories to be consumed - per day'),
       verbatimTextOutput("activity"),
