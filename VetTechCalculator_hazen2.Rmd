@@ -1,10 +1,9 @@
 ---
-title: "Vet-Tech Calculator"
+title: "VetTechCalc_Publication1"
 subtitle: "A quick pitch with Sample"
 author: "Alasdair Hazen"
-date: "February 09, 2016"
+date: "February 22, 2016"
 output: ioslides_presentation
-runtime: shiny
 ---
 
 ## Veterinarian ranks as fastest growing profession in United States 
@@ -55,6 +54,7 @@ runtime: shiny
 ## 
 
 ```{r, echo=FALSE}
+library(shiny)
 shinyApp(
   ui = fluidPage(
     titlePanel("Vet-Tech Calculator"),
